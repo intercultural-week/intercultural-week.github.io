@@ -40,8 +40,9 @@ $(document).ready(function(){
     });
 
     $('.result').on('click',function(e){
-        var score = ($('.green-reponse').size()*4) - $('.red-reponse').size();
-        $('#score-zone').text(score);
+        var score = ($('.green-reponse').size()*$('.true').size()) - $('.red-reponse').size();
+        var total = $('.false').size() + $('.true').size();
+        $('#score-zone').text(score+"/"+total);
     });
 
 });
