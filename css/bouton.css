@@ -68,7 +68,7 @@ h1 span {
   background: none repeat scroll 0 0 #444444;
   color: #FFFFFF;
 }
-.button.green, .green-reponse{
+.button.green, .green-reponse {
   background: none repeat scroll 0 0 #46b98a;
   color: #FFFFFF;
 }
@@ -85,4 +85,9 @@ h1 span {
   color: #FFFFFF;
 }
 
+.button.selected , .button.selected:hover {
+    border: 2px solid black;
+    color: #FFFFFF;
+    background: none repeat scroll 0 0 #46b98a;
+}
 

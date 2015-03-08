@@ -34,5 +34,14 @@ $(document).ready(function(){
         $(this).addClass('green-reponse');   
     });
 
+    $('.feedback').on('click', function(e) {
+        $('.feedback').removeClass('selected');
+        $(this).addClass('selected');
+    });
+
+    $('.result').on('click',function(e){
+        var score = ($('.green-reponse').size()*4) - $('.red-reponse').size();
+        $('#score-zone').text(score);
+    });
 
 });
