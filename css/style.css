@@ -290,9 +290,21 @@
     .page4 {
       background-color: #674172;
     }
+    .page4 h1 {
+        width: 100%;
+    }
 
     .page5 {
       background-color: #DCC6E0;      
+    }
+
+    .page5 h1 {
+        width: 100%;
+    }
+
+
+    .page5 .img-question {
+        width: 40%;
     }
 
     .page6 {
